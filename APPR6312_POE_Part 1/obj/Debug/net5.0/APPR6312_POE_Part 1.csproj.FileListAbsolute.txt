@@ -137,7 +137,6 @@ D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-2022091
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\EditDono.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Index.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\NewDisaster.cshtml.g.cs
-D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\securityDAO.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
@@ -150,3 +149,4 @@ D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-2022091
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CopyComplete
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.genruntimeconfig.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Login.cshtml.g.cs
