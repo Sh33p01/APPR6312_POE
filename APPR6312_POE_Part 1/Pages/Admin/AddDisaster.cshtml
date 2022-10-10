@@ -1,0 +1,40 @@
+﻿@page
+@model APPR6312_POE_Part_1.Pages.Admin.AddDisasterModel
+@{
+}
+
+@*html Code*@
+
+<br />
+<h2>List of Disasters</h2>
+<a class='btn btn-primary btn-sm' href='/Admin/NewDisaster'>New Disaster</a>
+<p></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Disaster ID</th>
+            <th>Start Date</th>
+            <th>End Date</th>
+            <th>Location</th>
+            <th>Aid Type</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.DisInfo)
+        {
+            <tr>
+                <td>@item.DisasterID</td>
+                <td>@item.StartDate</td>
+                <td>@item.EndDate</td>
+                <td>@item.Location</td>
+                <td>@item.AidType</td>
+                <td>@item.Description</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Admin/EditDisaster?id=@item.DisasterID">Edit</a>
+                    <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.DisasterID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

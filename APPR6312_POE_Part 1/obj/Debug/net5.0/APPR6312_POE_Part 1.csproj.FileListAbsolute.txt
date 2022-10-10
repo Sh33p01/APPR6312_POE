@@ -1,0 +1,152 @@
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.json
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.exe
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.deps.json
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.json
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.dev.json
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\ref\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.pdb
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.dll
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.AssemblyReference.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfoInputs.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfo.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\staticwebassets\APPR6312_POE_Part 1.StaticWebAssets.Manifest.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\staticwebassets\APPR6312_POE_Part 1.StaticWebAssets.xml
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\scopedcss\bundle\APPR6312_POE_Part 1.styles.css
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.input.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.output.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorCoreGenerate.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cs
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\ref\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.pdb
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.genruntimeconfig.cache
+C:\Users\Kenan\source\repos\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CopyComplete
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.Development.json
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.json
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.StaticWebAssets.xml
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.exe
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.deps.json
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.json
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.dev.json
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.pdb
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\System.Data.SqlClient.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.AssemblyReference.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfoInputs.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfo.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CoreCompileInputs.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\scopedcss\bundle\APPR6312_POE_Part 1.styles.css
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\staticwebassets\APPR6312_POE_Part 1.StaticWebAssets.Manifest.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.input.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.output.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorCoreGenerate.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CopyComplete
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\refint\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.pdb
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.genruntimeconfig.cache
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\ref\APPR6312_POE_Part 1.dll
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Index.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\AddDono.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\EditDono.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Admin Choice.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\DonationView.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\AddDisaster.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\NewDisaster.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\DonoDelete.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\.cshtml.g.cs
+C:\Users\Kenan\Documents\Varsity College\APPR6312\POE\Part 1\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\AdminLogin.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.AssemblyReference.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.GeneratedMSBuildEditorConfig.editorconfig
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfoInputs.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.AssemblyInfo.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CoreCompileInputs.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.MvcApplicationPartsAssemblyInfo.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorAssemblyInfo.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\ref\APPR6312_POE_Part 1.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.pdb
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.Development.json
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\appsettings.json
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.exe
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.deps.json
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.json
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.runtimeconfig.dev.json
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\ref\APPR6312_POE_Part 1.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.pdb
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\System.Data.SqlClient.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-arm64\native\sni.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-x64\native\sni.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win-x86\native\sni.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\bin\Debug\net5.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\staticwebassets\APPR6312_POE_Part 1.StaticWebAssets.Manifest.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\staticwebassets\APPR6312_POE_Part 1.StaticWebAssets.xml
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\scopedcss\bundle\APPR6312_POE_Part 1.styles.css
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.input.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.TagHelpers.output.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorCoreGenerate.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\AddDisaster.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\AddDono.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Admin Choice.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\DonationView.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\DonoDelete.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\EditDisaster.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\EditDono.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\Index.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\NewDisaster.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Admin\securityDAO.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cache
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.RazorTargetAssemblyInfo.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.Views.pdb
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.csproj.CopyComplete
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 1\APPR6312_POE_Part 1-20220914T164146Z-001\APPR6312_POE_Part 1\APPR6312_POE_Part 1\obj\Debug\net5.0\APPR6312_POE_Part 1.genruntimeconfig.cache

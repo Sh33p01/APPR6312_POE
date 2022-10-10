@@ -1,0 +1,45 @@
+﻿@page
+@model APPR6312_POE_Part_1.Pages.Admin.DonationViewModel
+@{
+}
+
+
+@*𝘊𝘳𝘦𝘢𝘵𝘦 𝘈𝘚𝘗.𝘕𝘌𝘛 𝘊𝘰𝘳𝘦 𝘞𝘦𝘣 𝘈𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘞𝘪𝘵𝘩 𝘚𝘘𝘓 𝘚𝘦𝘳𝘷𝘦𝘳 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘊𝘙𝘜𝘋 𝘖𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯𝘴 - Unknown. 2022 YouTube video, added by BoostMyTool
+    [Online]. Available at: https://www.youtube.com/watch?v=T-e554Zt3n4 [Accessed 14 September 2022].*@
+@*html Code*@
+
+<br />
+<h2>List of Dontions</h2>
+@*<a class='btn btn-primary btn-sm' href='/Admin/AddDono'>New Donation</a>*@
+<p></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Donation ID</th>
+            <th>Company</th>
+            <th>Date</th>
+            <th>NumItems</th>
+            <th>Category</th>
+            <th>Disaster</th>
+            <th>Description</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.publicView)
+        {
+            <tr>
+                <td>@item.DonationID</td>
+                <td>@item.Company</td>
+                <td>@item.Date</td>
+                <td>@item.NumItems</td>
+                <td>@item.Category</td>
+                <td>@item.Disaster</td>
+                <td>@item.Description</td>
+                @*<td>
+                        <a class="btn btn-primary btn-sm" href="/Admin/EditDono?id=@item.DonationID">Edit</a>
+                        <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.DonationID">Delete</a>
+                    </td>*@
+            </tr>
+        }
+    </tbody>
+</table>
