@@ -12,6 +12,8 @@ namespace APPR6312_POE_Part_1.Pages.Admin
     public class DonationViewModel : PageModel
     {
         public List<PublicDonoView> publicView = new List<PublicDonoView>();
+        public List<DisasterInfo> DisInfo = new List<DisasterInfo>();
+
 
         public void OnGet()
         {
@@ -49,6 +51,45 @@ namespace APPR6312_POE_Part_1.Pages.Admin
             {
                 Console.WriteLine("Exception: " + e.ToString());
             }
+
+            /* This is where we'll pull the Disaster Table's contents*/
+
+            try
+            {
+                string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    string sql = "SELECT * FROM Disaster";
+                    using (SqlCommand command = new SqlCommand(sql, sqlConnection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                DisasterInfo DInfo = new DisasterInfo();
+                                DInfo.DisasterID = "" + reader.GetInt32(0);
+                                DInfo.StartDate = reader.GetDateTime(1).ToString();
+                                DInfo.EndDate = reader.GetDateTime(2).ToString();
+                                DInfo.Location = reader.GetString(3);
+                                DInfo.AidType = reader.GetString(4);
+                                DInfo.Description = reader.GetString(5);
+                                DInfo.Active = reader.GetString(6);
+                                DInfo.Funds = reader.GetString(7);
+
+
+                                DisInfo.Add(DInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.ToString());
+            }
         }
     }
 
@@ -63,4 +104,6 @@ namespace APPR6312_POE_Part_1.Pages.Admin
         public string Description;
 
     }
+
+    
 }

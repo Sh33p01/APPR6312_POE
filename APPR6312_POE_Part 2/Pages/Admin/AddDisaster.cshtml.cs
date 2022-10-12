@@ -34,6 +34,9 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                                 DInfo.Location = reader.GetString(3);
                                 DInfo.AidType = reader.GetString(4);
                                 DInfo.Description = reader.GetString(5);
+                                DInfo.Active = reader.GetString(6);
+                                DInfo.Funds = reader.GetString(7);
+                                
 
                                 DisInfo.Add(DInfo);
                             }
@@ -56,7 +59,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
         public string Location;
         public string AidType;
         public string Description;
-       
-
+        public string Active;
+        public string Funds;
     }
 }
