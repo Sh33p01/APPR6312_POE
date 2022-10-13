@@ -1,5 +1,5 @@
 ﻿@page
-@model APPR6312_POE_Part_1.Pages.Admin.NewDisasterModel
+@model APPR6312_POE_Part_1.Pages.Admin.NewPurchaseModel
 @{
 }
 
@@ -7,7 +7,7 @@
     [Online]. Available at: https://www.youtube.com/watch?v=T-e554Zt3n4 [Accessed 14 September 2022].*@
 
 
-<h2>New Disaster</h2>
+<h2>New Purchase</h2>
 
 @if (Model.errorMessage.Length > 0)
 {
@@ -20,51 +20,58 @@
 <form method="POST">
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Start Date</label>
+        <label class="col-sm-3 col-form-label">Company Name</label>
         <div class="col-sm-6">
-            <input type="datetime" class="form-control" name="StartDate" value="@Model.DisInfo.StartDate" />
+            <input type="text" class="form-control" name="Company" value="@Model.purInfo.Company" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">End Date</label>
+        <label class="col-sm-3 col-form-label">Money</label>
         <div class="col-sm-6">
-            <input type="datetime" class="form-control" name="EndDate" value="@Model.DisInfo.EndDate" />
+            <input type="text" class="form-control" name="Money" value="@Model.purInfo.Money" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Location of Disaster</label>
+        <label class="col-sm-3 col-form-label">Goods</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" name="Location" value="@Model.DisInfo.Location" />
+            <input type="text" class="form-control" name="Goods" value="@Model.purInfo.Goods" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Aid Type</label>
+        <label class="col-sm-3 col-form-label">Price</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" name="AidType" value="@Model.DisInfo.AidType" />
+            <input type="text" class="form-control" name="Price" value="@Model.purInfo.Price" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Description</label>
+        <label class="col-sm-3 col-form-label">Amount</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" name="Description" value="@Model.DisInfo.Description" />
+            <input type="text" class="form-control" name="Amount" value="@Model.purInfo.Amount" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Active Disaster or Not?</label>
+        <label class="col-sm-3 col-form-label">Total Price</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" name="Active" value="@Model.DisInfo.Active" />
+            <input type="text" class="form-control" name="TotalPrice" value="@Model.purInfo.TotalPrice" />
         </div>
     </div>
 
     <div class="row mb-3">
-        <label class="col-sm-3 col-form-label">Funds</label>
+        <label class="col-sm-3 col-form-label">Money Left</label>
         <div class="col-sm-6">
-            <input type="text" class="form-control" name="Funds" />
+            <input type="text" class="form-control" name="MoneyLeft" value="@Model.purInfo.MoneyLeft" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Disaster</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Disaster" value="@Model.purInfo.Disaster" />
         </div>
     </div>
 
@@ -90,3 +97,4 @@
     </div>
 
 </form>
+

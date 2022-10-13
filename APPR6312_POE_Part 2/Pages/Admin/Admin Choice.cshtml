@@ -3,12 +3,50 @@
 @{
 }
 
-    <div class="choice">
+<style>
+    #buttons ul li a {
+        text-decoration: none;
+        padding: .4em 1em;
+        color: #fff;
+        background-color: #00A36C;
+        border-radius: 12px;
+    }
 
-    <a class="btn btn-primary btn-sm" href="/Admin/Index">Donations</a>
+    #buttons ul {
+        margin: 0;
+        padding: 100px;
+        list-style-type: none;
+        text-align: center;
+    }
 
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        #buttons ul li {
+            display: inline;
+            padding: 20px;
+        }
 
-    <a class="btn btn-primary btn-sm" href="/Admin/AddDisaster">Disaster</a>
-    </div>
+            #buttons ul li a:hover {
+                color: #000;
+                background-color: #478778;
+            }
+</style>
 
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Admin Choice</title>
+</head>
+<body>
+    <div id="buttons">
+        <ul>
+            <li><a href="/Admin/Index">Donations</a></li>
+            <li><a href="/Admin/AddDisaster">Disaster</a></li>
+            <br />
+            <br />
+            <br />
+            <li><a href="/Admin/PurchaseGoods">Purchase Goods</a></li>
+
+
+        </ul>
+    </div> 
+</body>
+</html>

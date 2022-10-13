@@ -1,0 +1,48 @@
+﻿@page
+@model APPR6312_POE_Part_1.Pages.Admin.PurchaseGoodsModel
+@{
+}
+
+
+<br />
+<h2>List of Disasters</h2>
+<a class='btn btn-primary btn-sm' href='/Admin/NewPurchase'>New Purchase</a>
+<p></p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Purchase ID</th>
+            <th>Company</th>
+            <th>Money</th>
+            <th>Goods</th>
+            <th>Price</th>
+            <th>Amount</th>
+            <th>Total Price</th>
+            <th>Money Left</th>
+            <th>Disaster</th>
+        </tr>
+    </thead>
+    <tbody style="background-color: #FCD299 ">
+        @foreach (var item in Model.pInfo)
+        {
+            <tr>
+                <td>@item.PurchaseID</td>
+                <td>@item.Company</td>
+                <td>@item.Money</td>
+                <td>@item.Goods</td>
+                <td>@item.Price</td>
+                <td>@item.Amount</td>
+                <td>@item.TotalPrice</td>
+                <td>@item.MoneyLeft</td>
+                <td>@item.Disaster</td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Admin/EditDisaster?id=@item.PurchaseID">Edit</a>
+                    <p>
+                </td>
+                <td>
+                    <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.PurchaseID">Delete</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

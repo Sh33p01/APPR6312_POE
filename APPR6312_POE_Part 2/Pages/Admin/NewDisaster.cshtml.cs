@@ -32,8 +32,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
             if (DisInfo.StartDate.Length == 0 || DisInfo.EndDate.Length == 0 ||
                 DisInfo.Location.Length == 0 || DisInfo.AidType.Length == 0 ||
-                DisInfo.Description.Length == 0 || DisInfo.Active.Length == 0 ||
-                DisInfo.Funds.Length == 0)
+                DisInfo.Description.Length == 0 || DisInfo.Active.Length == 0)
             {
                 errorMessage = "All Fields are required";
                 return;
