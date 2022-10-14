@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
@@ -9,9 +10,15 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 {
     public class LoginModel : PageModel
     {
-        public void OnGet()
+        
+
+
+    public void OnGet()
         {
 
         }
+
+
+        
     }
 }
