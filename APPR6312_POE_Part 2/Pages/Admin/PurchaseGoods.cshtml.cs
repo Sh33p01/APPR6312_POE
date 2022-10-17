@@ -6,14 +6,17 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
+
 namespace APPR6312_POE_Part_1.Pages.Admin
 {
     public class PurchaseGoodsModel : PageModel
     {
+
         public List<PurchaseInfo> pInfo = new List<PurchaseInfo>();
 
         public void OnGet()
         {
+
             try
             {
                 string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
