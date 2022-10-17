@@ -55,3 +55,6 @@ D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR631
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\PurchaseGoods.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\NewPurchase.cshtml.g.cs
 D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\AdminChoice.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\DisasterDelete.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\DonoDelete.cshtml.g.cs
+D:\Backup\Work\Year 3\Semester 2\APPR6312\POE\Task 2\APPR6312_POE_Part 2\APPR6312_POE_Part 2\obj\Debug\net5.0\Razor\Pages\Admin\PurchaseDelete.cshtml.g.cs

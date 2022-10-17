@@ -18,29 +18,28 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
         public void OnGet()
         {
-            string donationID = Request.Query["DonationID"];
+            string DonationID = Request.Query["DonationID"];
 
             try
             {
-                String connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
-                using (SqlConnection connection = new SqlConnection(connectionString))
+                string connectionString = "Server=tcp:appr6312-poe-part1.database.windows.net,1433;Initial Catalog=APPR6312-POE;Persist Security Info=False;User ID=ST10118069;Password=AdminPass1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"; using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    String sql = "SELECT * FROM Donations WHERE DonationID=@DonationID";
+                    string sql = "SELECT * FROM Donations WHERE DonationID=@DonationID";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                         {
-                        command.Parameters.AddWithValue("@DonationID", donationID);
+                        command.Parameters.AddWithValue("@DonationID", DonationID);
                         using (SqlDataReader reader = command.ExecuteReader())
                         {
                             if (reader.Read())
                             {
-                                donoInfo.DonationID = "" + reader.GetInt32(0);
-                                donoInfo.Company = reader.GetString(1);
-                                donoInfo.Date = reader.GetDateTime(2).ToString();
-                                donoInfo.NumItems = reader.GetString(3);
-                                donoInfo.Category = reader.GetString(4);
-                                donoInfo.Disaster = reader.GetString(5);
-                                donoInfo.Description = reader.GetString(6);
+                               
+                                donoInfo.Company = reader.GetString(0);
+                                donoInfo.Date = reader.GetDateTime(1).ToString();
+                                donoInfo.NumItems = reader.GetString(2);
+                                donoInfo.Category = reader.GetString(3);
+                                donoInfo.Disaster = reader.GetString(4);
+                                donoInfo.Description = reader.GetString(5);
 
                             }
                         }
@@ -57,7 +56,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
         public void OnPost()
         {
-            donoInfo.DonationID = Request.Form["DonationID"];
+            
             donoInfo.Company = Request.Form["Company"];
             donoInfo.Date = Request.Form["Date"];
             donoInfo.NumItems = Request.Form["NumItems"];
@@ -65,7 +64,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
             donoInfo.Disaster = Request.Form["Disaster"];
             donoInfo.Description = Request.Form["Description"];
 
-            if (donoInfo.DonationID.Length == 0 || donoInfo.Company.Length == 0 || donoInfo.Date.Length == 0 ||
+            if (donoInfo.Company.Length == 0 || donoInfo.Date.Length == 0 ||
                 donoInfo.NumItems.Length == 0 || donoInfo.Category.Length == 0 ||
                 donoInfo.Disaster.Length == 0 || donoInfo.Description.Length == 0)
             {
@@ -81,7 +80,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                     connection.Open();
                     String sql = "UPDATE Donations" +
                         "SET Company=@Company, Date=@Date, NumItems=@NumItems, Category=@Category, Disaster=@Disaster, Description=@Description" +
-                        "WHERE donationID=@DonationID";
+                        "WHERE DonationID=@DonationID";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -102,7 +101,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                 return;
             }
 
-            Response.Redirect("/Admin/Index");
+            Response.Redirect("/Admin/DonationView");
         }
     }
 }
