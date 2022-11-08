@@ -17,15 +17,15 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
         public void OnGet()
         {
-            string donationID = Request.Query["DonationID"];
+            String donationID = Request.Query["DisasterID"];
 
             try
             {
-                String connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+                string connectionString = "Server=tcp:appr6312-poe-part1.database.windows.net,1433;Initial Catalog=APPR6312-POE;Persist Security Info=False;User ID=ST10118069;Password=AdminPass1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    String sql = "SELECT * FROM Disaster WHERE DisasterID=@DisasterID";
+                    string sql = "SELECT * FROM Disaster";
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
                         command.Parameters.AddWithValue("@DisasterID", disasInfo);
@@ -33,12 +33,14 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                         {
                             if (reader.Read())
                             {
-                                disasInfo.DisasterID = "" + reader.GetInt32(0);
+                                disasInfo.DisasterID = "" + reader.GetString(0);
                                 disasInfo.StartDate = reader.GetDateTime(1).ToString();
                                 disasInfo.EndDate = reader.GetDateTime(2).ToString();
                                 disasInfo.Location = reader.GetString(3);
                                 disasInfo.AidType = reader.GetString(4);
                                 disasInfo.Description = reader.GetString(5);
+                                disasInfo.Active = reader.GetString(6);
+                                disasInfo.Funds = reader.GetString(7);
 
                             }
                         }
@@ -55,16 +57,19 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
         public void OnPost()
         {
-            disasInfo.DisasterID = Request.Form["DonationID"];
-            disasInfo.StartDate = Request.Form["Company"];
-            disasInfo.EndDate = Request.Form["Date"];
-            disasInfo.Location = Request.Form["NumItems"];
-            disasInfo.AidType = Request.Form["Disaster"];
+            disasInfo.DisasterID = Request.Form["DisasterID"];
+            disasInfo.StartDate = Request.Form["StartDate"];
+            disasInfo.EndDate = Request.Form["EndDate"];
+            disasInfo.Location = Request.Form["Location"];
+            disasInfo.AidType = Request.Form["AidType"];
             disasInfo.Description = Request.Form["Description"];
+            disasInfo.Active = Request.Form["Active"];
+            disasInfo.Funds = Request.Form["Funds"];
 
-            if (disasInfo.DisasterID.Length == 0 || disasInfo.StartDate.Length == 0 || disasInfo.EndDate.Length == 0 ||
+            if (disasInfo.DisasterID.Length ==0 || disasInfo.StartDate.Length == 0 || disasInfo.EndDate.Length == 0 ||
                 disasInfo.Location.Length == 0 || disasInfo.AidType.Length == 0 ||
-                disasInfo.Description.Length == 0)
+                disasInfo.Description.Length == 0 || disasInfo.Active.Length == 0 ||
+                disasInfo.Funds.Length == 0)
             {
                 errorMessage = "All Fields are required";
                 return;
@@ -72,22 +77,24 @@ namespace APPR6312_POE_Part_1.Pages.Admin
 
             try
             {
-                String connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+                string connectionString = "Server=tcp:appr6312-poe-part1.database.windows.net,1433;Initial Catalog=APPR6312-POE;Persist Security Info=False;User ID=ST10118069;Password=AdminPass1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
                 using (SqlConnection connection = new SqlConnection(connectionString))
                 {
                     connection.Open();
-                    String sql = "UPDATE Donations" +
-                        "SET Company=@Company, Date=@Date, NumItems=@NumItems, Category=@Category, Disaster=@Disaster, Description=@Description" +
-                        "WHERE donationID=@DonationID";
+                    string sql = "UPDATE Donations" +
+                        "SET DisasterID=@DisasterID, StartDate=@StartDate, EndDate=@EndDate, Location=@Location, AidType=@AidType, Description=@Description, Active=@Active, Funds@Funds" +
+                        "WHERE DisasterID=@DisasterID";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
-                        command.Parameters.AddWithValue("@Company", disasInfo.DisasterID);
-                        command.Parameters.AddWithValue("@Date", disasInfo.StartDate);
-                        command.Parameters.AddWithValue("@NumItems", disasInfo.EndDate);
-                        command.Parameters.AddWithValue("@Category", disasInfo.Location);
-                        command.Parameters.AddWithValue("@Disaster", disasInfo.AidType);
+                        command.Parameters.AddWithValue("@DisasterID", disasInfo.DisasterID);
+                        command.Parameters.AddWithValue("@StartDate", disasInfo.StartDate);
+                        command.Parameters.AddWithValue("@EndDate", disasInfo.EndDate);
+                        command.Parameters.AddWithValue("@Location", disasInfo.Location);
+                        command.Parameters.AddWithValue("@AidType", disasInfo.AidType);
                         command.Parameters.AddWithValue("@Description", disasInfo.Description);
+                        command.Parameters.AddWithValue("@Active", disasInfo.Active);
+                        command.Parameters.AddWithValue("@Funds", disasInfo.Funds);
 
                         command.ExecuteNonQuery();
                     }
@@ -99,7 +106,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                 return;
             }
 
-            Response.Redirect("/Admin/Index");
+            Response.Redirect("/Admin/AddDisaster");
         }
     }
 }

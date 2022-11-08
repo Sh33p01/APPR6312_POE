@@ -1,0 +1,100 @@
+﻿@page
+@model APPR6312_POE_Part_1.Pages.Admin.NewPurchaseModel
+@{
+}
+
+@*𝘊𝘳𝘦𝘢𝘵𝘦 𝘈𝘚𝘗.𝘕𝘌𝘛 𝘊𝘰𝘳𝘦 𝘞𝘦𝘣 𝘈𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘞𝘪𝘵𝘩 𝘚𝘘𝘓 𝘚𝘦𝘳𝘷𝘦𝘳 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘊𝘙𝘜𝘋 𝘖𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯𝘴 - Unknown. 2022 YouTube video, added by BoostMyTool
+    [Online]. Available at: https://www.youtube.com/watch?v=T-e554Zt3n4 [Accessed 14 September 2022].*@
+
+
+<h2>New Purchase</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role='alert'>
+        <strong>@Model.errorMessage</strong>
+        <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close'></button>
+    </div>
+}
+
+<form method="POST">
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Company Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Company" value="@Model.purInfo.Company" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Money</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Money" value="@Model.purInfo.Money" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Goods</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Goods" value="@Model.purInfo.Goods" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Price</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Price" value="@Model.purInfo.Price" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Amount</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Amount" value="@Model.purInfo.Amount" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Total Price</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="TotalPrice" value="@Model.purInfo.TotalPrice" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Money Left</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="MoneyLeft" value="@Model.purInfo.MoneyLeft" />
+        </div>
+    </div>
+
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Disaster</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="Disaster" value="@Model.purInfo.Disaster" />
+        </div>
+    </div>
+
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class="row mb-3">
+            <div class="col-sm-9">
+                <div class='alert alert-success alert-dismissible fade show' role='alert'>
+                    <strong>@Model.successMessage</strong>
+                    <button type='button' class='btn-close' data-bs-dismiss='alert' aria-label='Close' la></button>
+                </div>
+            </div>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/Admin/PurchaseGoods" role="button">Cancel</a>
+        </div>
+    </div>
+
+</form>
+

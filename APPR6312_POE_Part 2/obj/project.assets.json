@@ -460,11 +460,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Task 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2.csproj",
+      "projectUniqueName": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Final POE\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2.csproj",
       "projectName": "APPR6312_POE_Part 2",
-      "projectPath": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Task 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2.csproj",
+      "projectPath": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Final POE\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2.csproj",
       "packagesPath": "C:\\Users\\Kenan\\.nuget\\packages\\",
-      "outputPath": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Task 2\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\obj\\",
+      "outputPath": "D:\\Backup\\Work\\Year 3\\Semester 2\\APPR6312\\POE\\Final POE\\APPR6312_POE_Part 2\\APPR6312_POE_Part 2\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

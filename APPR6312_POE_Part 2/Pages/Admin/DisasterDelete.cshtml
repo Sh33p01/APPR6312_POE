@@ -1,0 +1,30 @@
+﻿@page
+@using System.Data.SqlClient;
+@{     
+    try
+    {
+        string DisasterID = Request.Query["DisasterID"];
+
+        string connectionString = "Server=tcp:appr6312-poe-part1.database.windows.net,1433;Initial Catalog=APPR6312-POE;Persist Security Info=False;User ID=ST10118069;Password=AdminPass1;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;";
+        using (SqlConnection connection = new SqlConnection(connectionString))
+        {
+            connection.Open();
+
+            string sql = "DELETE FROM Disaster WHERE DisasterID=@DisasterID";
+            using (SqlCommand command = new SqlCommand(sql, connection))
+            {
+                command.Parameters.AddWithValue("@DisasterID", DisasterID);
+
+                command.ExecuteNonQuery();
+            }
+
+        }
+    }
+    catch(Exception e)
+    {
+
+    }
+
+    Response.Redirect("/Admin/AddDisaster");
+}
+
