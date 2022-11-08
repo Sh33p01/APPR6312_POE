@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32802.440
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APPR6312_POE_Part 2", "APPR6312_POE_Part 2.csproj", "{CEEFD00B-666B-4CFE-BB6E-BCAE1B7F76C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "APPR6312_POE_Final", "APPR6312_POE_Final.csproj", "{CEEFD00B-666B-4CFE-BB6E-BCAE1B7F76C6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
