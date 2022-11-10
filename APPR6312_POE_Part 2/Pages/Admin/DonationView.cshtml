@@ -19,7 +19,7 @@
 </head>
 <body>
     <br />
-    <h2>List of Dontions</h2>
+    <h2>List of Donations</h2>
     <p></p>
     <table class="table">
         <thead>
@@ -70,17 +70,53 @@
         <tbody style="background-color: #FCD299 ">
             @foreach (var item in Model.DisInfo)
             {
+                <tr>
+                    <td>@item.DisasterID</td>
+                    <td>@item.StartDate</td>
+                    <td>@item.EndDate</td>
+                    <td>@item.Location</td>
+                    <td>@item.AidType</td>
+                    <td>@item.Description</td>
+                    <td>@item.Active</td>
+                    <td>@item.Funds</td>
+                    <td>@item.Goods</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+
+    <br />
+    <!-- This is the Goods Info's Table'-->
+    <h2>List of Disasters</h2>
+    <p></p>
+    <table class="table">
+        <thead>
             <tr>
-                <td>@item.DisasterID</td>
-                <td>@item.StartDate</td>
-                <td>@item.EndDate</td>
-                <td>@item.Location</td>
-                <td>@item.AidType</td>
-                <td>@item.Description</td>
-                <td>@item.Active</td>
-                <td>@item.Funds</td>
-                <td>@item.Goods</td>
+                <th>Purchase ID</th>
+                <th>Company</th>
+                <th>Money</th>
+                <th>Goods</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Total Price</th>
+                <th>Money Left</th>
+                <th>Disaster</th>
             </tr>
+        </thead>
+        <tbody style="background-color: #FCD299 ">
+            @foreach (var item in Model.pInfo)
+            {
+                <tr>
+                    <td>@item.PurchaseID</td>
+                    <td>@item.Company</td>
+                    <td>@item.Money</td>
+                    <td>@item.Goods</td>
+                    <td>@item.Price</td>
+                    <td>@item.Amount</td>
+                    <td>@item.TotalPrice</td>
+                    <td>@item.MoneyLeft</td>
+                    <td>@item.Disaster</td>
+                </tr>
             }
         </tbody>
     </table>
