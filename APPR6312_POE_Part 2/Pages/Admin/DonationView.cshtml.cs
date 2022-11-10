@@ -77,8 +77,40 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                                 DInfo.AidType = reader.GetString(4);
                                 DInfo.Description = reader.GetString(5);
                                 DInfo.Active = reader.GetString(6);
-                                DInfo.Funds = reader.GetString(7);
+                                DInfo.Funds = reader.GetInt32(7).ToString();
+                                DInfo.Goods = reader.GetString(8);
 
+
+                                DisInfo.Add(DInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.ToString());
+            }
+
+            /* This is where we'll pull the Monetary Donations*/
+
+            try
+            {
+                string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    string sql = "SELECT SUM(Funds) FROM Disaster";
+                    using (SqlCommand command = new SqlCommand(sql, sqlConnection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                DisasterInfo DInfo = new DisasterInfo();
+                                DInfo.Funds = "R" + reader.GetInt32(0);
 
                                 DisInfo.Add(DInfo);
                             }

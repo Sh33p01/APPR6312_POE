@@ -64,21 +64,23 @@
                 <th>Description</th>
                 <th>Active</th>
                 <th>Funds</th>
+                <th>Goods</th>
             </tr>
         </thead>
         <tbody style="background-color: #FCD299 ">
             @foreach (var item in Model.DisInfo)
             {
-                <tr>
-                    <td>@item.DisasterID</td>
-                    <td>@item.StartDate</td>
-                    <td>@item.EndDate</td>
-                    <td>@item.Location</td>
-                    <td>@item.AidType</td>
-                    <td>@item.Description</td>
-                    <td>@item.Active</td>
-                    <td>@item.Funds</td>
-                </tr>
+            <tr>
+                <td>@item.DisasterID</td>
+                <td>@item.StartDate</td>
+                <td>@item.EndDate</td>
+                <td>@item.Location</td>
+                <td>@item.AidType</td>
+                <td>@item.Description</td>
+                <td>@item.Active</td>
+                <td>@item.Funds</td>
+                <td>@item.Goods</td>
+            </tr>
             }
         </tbody>
     </table>
