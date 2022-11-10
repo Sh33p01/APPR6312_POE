@@ -29,10 +29,12 @@ namespace APPR6312_POE_Part_1.Pages.Admin
             DisInfo.Description = Request.Form["Description"];
             DisInfo.Active = Request.Form["Active"];
             DisInfo.Funds = Request.Form["Funds"];
+            DisInfo.Goods = Request.Form["Goods"];
 
             if (DisInfo.StartDate.Length == 0 || DisInfo.EndDate.Length == 0 ||
                 DisInfo.Location.Length == 0 || DisInfo.AidType.Length == 0 ||
-                DisInfo.Description.Length == 0 || DisInfo.Active.Length == 0)
+                DisInfo.Description.Length == 0 || DisInfo.Active.Length == 0 || 
+                DisInfo.Goods.Length == 0)
             {
                 errorMessage = "All Fields are required";
                 return;
@@ -46,8 +48,8 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                 {
                     connection.Open();
                     String sql = "INSERT INTO Disaster " +
-                        "(StartDate, EndDate, Location, AidType, Description, Active, Funds) VALUES" +
-                        "(@StartDate, @EndDate, @Location, @AidType, @Description, @Active, @Funds);";
+                        "(StartDate, EndDate, Location, AidType, Description, Active, Funds, Goods) VALUES" +
+                        "(@StartDate, @EndDate, @Location, @AidType, @Description, @Active, @Funds, @Goods);";
 
                     using (SqlCommand command = new SqlCommand(sql, connection))
                     {
@@ -59,6 +61,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                         command.Parameters.AddWithValue("@Description", DisInfo.Description);
                         command.Parameters.AddWithValue("@Active", DisInfo.Active);
                         command.Parameters.AddWithValue("@Funds", DisInfo.Funds);
+                        command.Parameters.AddWithValue("@Goods", DisInfo.Goods);
 
 
                         command.ExecuteNonQuery();
@@ -71,7 +74,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                 return;
             }
 
-            DisInfo.StartDate = ""; DisInfo.EndDate = ""; DisInfo.Location = ""; DisInfo.AidType = ""; DisInfo.Description = ""; DisInfo.Active = ""; DisInfo.Funds = "";
+            DisInfo.StartDate = ""; DisInfo.EndDate = ""; DisInfo.Location = ""; DisInfo.AidType = ""; DisInfo.Description = ""; DisInfo.Active = ""; DisInfo.Funds = ""; DisInfo.Goods = "";
             successMessage = "New Disaster has been Added";
 
             Response.Redirect("/Admin/AddDisaster");

@@ -77,7 +77,7 @@ namespace APPR6312_POE_Part_1.Pages.Admin
                                 DInfo.AidType = reader.GetString(4);
                                 DInfo.Description = reader.GetString(5);
                                 DInfo.Active = reader.GetString(6);
-                                DInfo.Funds = reader.GetInt32(7).ToString();
+                                DInfo.Funds = "R" + reader.GetInt32(7).ToString();
                                 DInfo.Goods = reader.GetString(8);
 
 
