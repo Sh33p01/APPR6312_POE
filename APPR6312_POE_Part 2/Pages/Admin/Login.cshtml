@@ -5,14 +5,16 @@
 
 <style>
 
-    
+
     form {
-        border: 7px solid #00A36C;
-        width: 50%;
-        text-align: center;
-        justify-content: center;
-        max-width: 400px;
-        margin: auto;
+        background-color: rgb(255, 255, 255, 0.2);
+        -webkit-backdrop-filter: blur(10px);
+        backdrop-filter: blur(10px);
+        display: flex;
+        flex-direction: column;
+        border-radius: 20px;
+        font-size: x-large;
+        padding: 10px;
     }
 
     input[type=text], input[type=password] {
@@ -39,9 +41,9 @@
         width: 30%;
     }
 
-    button:hover {
-        opacity: 0.8;
-    }
+        button:hover {
+            opacity: 0.8;
+        }
 
     .cancelbtn {
         width: auto;
@@ -91,20 +93,20 @@
     <title>Admin Login</title>
 </head>
 <body>
-    <form action="" method="POST">
+    <form method="POST">
         <div class="admin">
             <h2>Admin Login</h2>
         </div>
         <div class="container">
-            <label for="u_Email"><b>User Email</b></label>
+            <label for="uEmail"><b>User Email</b></label>
             <br>
-            <input type="text" placeholder="User Email" name="u_Email" required style="text-align:center">
+            <input type="text" placeholder="User Email" name="uEmail" required style="text-align:center">
 
             <p>
 
-                <label for="u_Pass"><b>Password</b></label>
+                <label for="uPass"><b>Password</b></label>
                 <br>
-                <input type="password" placeholder="Password" name="u_Pass" required style="text-align:center">
+                <input type="password" placeholder="Password" name="uPass" required style="text-align:center">
             </p>
             <p>
                 <button type="submit" name="login">Login</button>

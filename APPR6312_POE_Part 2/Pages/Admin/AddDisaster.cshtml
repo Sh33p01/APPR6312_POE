@@ -18,23 +18,35 @@
             <th>Location</th>
             <th>Aid Type</th>
             <th>Description</th>
+            <th>Active</th>
+            <th>Funds</th>
+            <th>Goods</th>
         </tr>
     </thead>
-    <tbody>
+    <tbody style="background-color: #FCD299 ">
         @foreach (var item in Model.DisInfo)
         {
-            <tr>
-                <td>@item.DisasterID</td>
-                <td>@item.StartDate</td>
-                <td>@item.EndDate</td>
-                <td>@item.Location</td>
-                <td>@item.AidType</td>
-                <td>@item.Description</td>
-                <td>
-                    <a class="btn btn-primary btn-sm" href="/Admin/EditDisaster?id=@item.DisasterID">Edit</a>
-                    <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.DisasterID">Delete</a>
-                </td>
-            </tr>
+        <tr>
+            <td>@item.DisasterID</td>
+            <td>@item.StartDate</td>
+            <td>@item.EndDate</td>
+            <td>@item.Location</td>
+            <td>@item.AidType</td>
+            <td>@item.Description</td>
+            <td>@item.Active</td>
+            <td>@item.Funds</td>
+            <td>@item.Goods</td>
+
+            <td>
+                <a class="btn btn-primary btn-sm" href="/Admin/EditDisaster?id=@item.DisasterID">Edit</a>
+                <p>
+            </td>
+            <td>
+                <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.DisasterID">Delete</a>
+            </td>
+        </tr>
         }
     </tbody>
 </table>
+<p></p>
+<a class='btn btn-primary btn-sm' href='/Admin/AdminChoice'>Back to Choices</a>

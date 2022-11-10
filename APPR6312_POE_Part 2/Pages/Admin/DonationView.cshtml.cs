@@ -12,6 +12,9 @@ namespace APPR6312_POE_Part_1.Pages.Admin
     public class DonationViewModel : PageModel
     {
         public List<PublicDonoView> publicView = new List<PublicDonoView>();
+        public List<DisasterInfo> DisInfo = new List<DisasterInfo>();
+        public List<PurchaseInfo> pInfo = new List<PurchaseInfo>();
+
 
         public void OnGet()
         {
@@ -49,6 +52,117 @@ namespace APPR6312_POE_Part_1.Pages.Admin
             {
                 Console.WriteLine("Exception: " + e.ToString());
             }
+
+            /* This is where we'll pull the Disaster Table's contents*/
+
+            try
+            {
+                string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    string sql = "SELECT * FROM Disaster";
+                    using (SqlCommand command = new SqlCommand(sql, sqlConnection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                DisasterInfo DInfo = new DisasterInfo();
+                                DInfo.DisasterID = "" + reader.GetInt32(0);
+                                DInfo.StartDate = reader.GetDateTime(1).ToString();
+                                DInfo.EndDate = reader.GetDateTime(2).ToString();
+                                DInfo.Location = reader.GetString(3);
+                                DInfo.AidType = reader.GetString(4);
+                                DInfo.Description = reader.GetString(5);
+                                DInfo.Active = reader.GetString(6);
+                                DInfo.Funds = "R" + reader.GetInt32(7).ToString();
+                                DInfo.Goods = reader.GetString(8);
+
+
+                                DisInfo.Add(DInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.ToString());
+            }
+
+            /* This is where we'll pull the Monetary Donations*/
+
+            try
+            {
+                string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    string sql = "SELECT SUM(Funds) FROM Disaster";
+                    using (SqlCommand command = new SqlCommand(sql, sqlConnection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                DisasterInfo DInfo = new DisasterInfo();
+                                DInfo.Funds = "R" + reader.GetInt32(0);
+
+                                DisInfo.Add(DInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception: " + e.ToString());
+            }
+
+
+            /* This is where we'll pull the Purchased Goods*/
+            try
+            {
+                string connectionString = "Data Source=appr6312-poe-part1.database.windows.net;Initial Catalog=APPR6312-POE;Persist Security Info=True;User ID=ST10118069;Password=AdminPass1";
+
+                using (SqlConnection sqlConnection = new SqlConnection(connectionString))
+                {
+                    sqlConnection.Open();
+
+                    string sql = "SELECT * FROM Purchase";
+                    using (SqlCommand command = new SqlCommand(sql, sqlConnection))
+                    {
+                        using (SqlDataReader reader = command.ExecuteReader())
+                        {
+                            while (reader.Read())
+                            {
+                                PurchaseInfo purInfo = new PurchaseInfo();
+                                purInfo.PurchaseID = "" + reader.GetInt32(0);
+                                purInfo.Company = reader.GetString(1);
+                                purInfo.Money = reader.GetString(2);
+                                purInfo.Goods = reader.GetString(3);
+                                purInfo.Price = reader.GetString(4);
+                                purInfo.Amount = reader.GetString(5);
+                                purInfo.TotalPrice = reader.GetString(6);
+                                purInfo.MoneyLeft = reader.GetString(7);
+                                purInfo.Disaster = reader.GetString(8);
+
+
+                                pInfo.Add(purInfo);
+                            }
+                        }
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Console.WriteLine("Exception" + e.ToString());
+            }
         }
     }
 
@@ -63,4 +177,6 @@ namespace APPR6312_POE_Part_1.Pages.Admin
         public string Description;
 
     }
+
+    
 }

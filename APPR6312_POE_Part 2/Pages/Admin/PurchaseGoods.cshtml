@@ -1,0 +1,62 @@
+﻿@page
+@model APPR6312_POE_Part_1.Pages.Admin.PurchaseGoodsModel
+@{
+//𝘊𝘳𝘦𝘢𝘵𝘦 𝘈𝘚𝘗.𝘕𝘌𝘛 𝘊𝘰𝘳𝘦 𝘞𝘦𝘣 𝘈𝘱𝘱𝘭𝘪𝘤𝘢𝘵𝘪𝘰𝘯 𝘞𝘪𝘵𝘩 𝘚𝘘𝘓 𝘚𝘦𝘳𝘷𝘦𝘳 𝘋𝘢𝘵𝘢𝘣𝘢𝘴𝘦 𝘊𝘰𝘯𝘯𝘦𝘤𝘵𝘪𝘰𝘯 𝘢𝘯𝘥 𝘊𝘙𝘜𝘋 𝘖𝘱𝘦𝘳𝘢𝘵𝘪𝘰𝘯𝘴 - Unknown. 2022 YouTube video, added by BoostMyTool
+//    [Online]. Available at: https://www.youtube.com/watch?v=T-e554Zt3n4 [Accessed 14 September 2022].
+}
+
+
+
+
+
+    <br />
+    <h2>List of Goods Purchased</h2>
+    <a class='btn btn-primary btn-sm' href='/Admin/NewPurchase'>New Purchase</a>
+    <p></p>
+    
+
+    
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Purchase ID</th>
+                <th>Company</th>
+                <th>Money</th>
+                <th>Goods</th>
+                <th>Price</th>
+                <th>Amount</th>
+                <th>Total Price</th>
+                <th>Money Left</th>
+                <th>Disaster</th>
+                
+
+            </tr>
+        </thead>
+
+            <tbody style="background-color: #FCD299 ">
+                @foreach (var item in Model.pInfo)
+                {
+                    <tr>
+                        <td>@item.PurchaseID</td>
+                        <td>@item.Company</td>
+                        <td>@item.Money</td>
+                        <td>@item.Goods</td>
+                        <td>@item.Price</td>
+                        <td>@item.Amount</td>
+                        <td>@item.TotalPrice</td>
+                        <td>@item.MoneyLeft</td>
+                        <td>@item.Disaster</td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="/Admin/EditDisaster?id=@item.PurchaseID">Edit</a>
+                            <p>
+                        </td>
+                        <td>
+                            <a class="btn btn-primary btn-sm" href="/Companies/Delete?id=@item.PurchaseID">Delete</a>
+                        </td>
+                    </tr>
+                }
+
+            </tbody>
+        </table>
+<p></p>
+<a class='btn btn-primary btn-sm' href='/Admin/AdminChoice'>Back to Choices</a>
